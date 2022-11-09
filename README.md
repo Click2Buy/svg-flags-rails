@@ -21,7 +21,14 @@ image_tag 'country-squared/hk.svg', width: 64, alt: 'HK'
 
 ```ruby
 # Add this to your Gemfile
-gem 'svg-flags-rails', '>= 1.0.0-beta' # ISO country flags https://github.com/steakknife/svg-flags/rails
+gem 'svg-flags-rails', github: 'Click2Buy/svg-flags-rails'
+```
+
+### Sprockets 4
+
+```js
+// Add this to your manifest.js
+//= link svg_flags_rails_engine
 ```
 
 ## Supported
